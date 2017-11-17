@@ -1,6 +1,6 @@
 *{
     padding: 0;
-    margin: 0 auto;
+    margin: 0;
     font-family: Arial, Helvetica, sans-serif;
 }
 
@@ -14,7 +14,6 @@ h1{
 h2{
     color: #eff4f7;
     background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#6d93b1), to(#3c75a8));
-    /* background-color: #3c75a8; */
     font-weight: 1;
     font-size: 16pt;
     padding-left: 16px;
@@ -57,6 +56,11 @@ h3{
 
 #big_wrapper{
     background: -webkit-linear-gradient(#e5e5e5, white);
+}
+
+#container{
+    display: table;
+    margin: 0 auto;
 }
 
 /*-----------------------------------------------
@@ -204,7 +208,7 @@ h3{
 }
 
 #content_right_2{
-    width: 100%;
+    width: 95%;
     display: inline-block;
     vertical-align: top;
     /* background-color: green; */
@@ -226,6 +230,7 @@ ol li{
 }
 
 #content_right_2 img{
+    margin: 0 auto;
     width: 205px;
     height: 75px;
     display: block;
@@ -245,12 +250,12 @@ ol li{
 }
 
 #content_right_3{
-    width: 100%;
+    width: 95%;
     border-top: 4px solid #0385e1;
     border-left: 4px solid #0385e1;
     border-right: 4px solid #0385e1;
     display: inline-block;
-    padding: 15px;
+    padding: 14px;
     /* background-color: purple; */
 }
 
@@ -260,7 +265,7 @@ ol li{
 }
 
 #content_right_3b{
-    width: 70%;
+    width: 80%;
     display: inline-block;
     vertical-align: top;
     /* background-color: blue; */
